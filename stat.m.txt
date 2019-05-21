@@ -1,0 +1,9 @@
+fileID = fopen('fb.txt','r');
+seg = char(176);
+[A,count] = fscanf(fileID, [64 bytes from 172.217.16.131: icmp_seq=0 ttl=47 time= '%d' 'C'])
+fclose(fileID);
+
+meanSeg = mean(A);
+STDSeg = std(A);
+maxSeg = max(A);
+minSeg = min(A);

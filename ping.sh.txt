@@ -1,0 +1,3 @@
+#! /bin/bash
+
+ping -c 1000 -i 3 facebook.com > fb
